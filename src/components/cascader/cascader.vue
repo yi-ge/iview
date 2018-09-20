@@ -337,7 +337,8 @@
 
                     let newVal = [];
                     this.selected.forEach((item) => {
-                        newVal.push(item.value);
+                        // newVal.push(item.value);
+                        newVal.push(item.id);
                     });
 
                     if (!fromInit) {
