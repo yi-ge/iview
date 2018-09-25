@@ -338,7 +338,7 @@
                     let newVal = [];
                     this.selected.forEach((item) => {
                         // newVal.push(item.value);
-                        newVal.push(item.id);
+                        newVal.push(item.optionKey);
                     });
 
                     if (!fromInit) {
